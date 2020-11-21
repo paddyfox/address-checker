@@ -6,18 +6,4 @@ public class AddressChecker {
         // return boolean after attempting to match postcode to the above pattern
         return postcode.matches(regexPattern);
     }
-
-    public boolean streetNumberValidator(String streetNumber) {
-        // Regex pattern for numbers
-        String regexPattern = "[0-9]+";
-        // return boolean after attempting to match street number to the above pattern
-        return streetNumber.matches(regexPattern);
-    }
-
-    public boolean streetNameValidator(String streetName) {
-        // Regex pattern for alpha characters
-        String regexPattern = "^[a-zA-Z]+$";
-        // return boolean after attempting to match street name to the above pattern
-        return streetName.matches(regexPattern);
-    }
 }
