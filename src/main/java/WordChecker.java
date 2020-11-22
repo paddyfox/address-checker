@@ -1,4 +1,4 @@
-public class AddressChecker {
+public class WordChecker {
 
     public boolean postcodeValidator(String postcode) {
         // Google Regex pattern for valid UK postcodes
